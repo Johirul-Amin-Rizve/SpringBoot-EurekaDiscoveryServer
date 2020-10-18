@@ -8,6 +8,7 @@
 	<artifactId>sample-spring-security-microservices</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<modules>
+		<module>eureka-server</module>
 		<module>movie-catalog-service</module>
 		<module>movie-info-service</module>
 		<module>rating-data-service</module>
