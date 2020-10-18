@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class RatingsResource {
     @GetMapping("/{movieId}")
     public Rating getRating(@PathVariable int movieId){
-        return new Rating(movieId, 1);
+        return new Rating(movieId, 5);
     }
 }
